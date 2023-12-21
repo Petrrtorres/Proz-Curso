@@ -1,7 +1,7 @@
-produtos = ["ABCD123", " abdcd123", "CAB 123", " cab1234 "]
+def titulo(msg):
+    print("-" * 30)
+    print(msg)
+    print("-" * 30)
 
-texto = " cab1234 "
 
-texto= texto.upper().strip() 
-
-print(texto)
+titulo("Sistema de Alunos")

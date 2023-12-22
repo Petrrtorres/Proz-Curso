@@ -23,7 +23,7 @@ i= True
 while i != 0:
 
   print("Selecione uma das operações abaixo: ") 
-  print(" 1: Soma \n 2: Subtração \n 3: Multiplicação \n 4: Divisão \n 0: Sair")
+  print(" 1: Soma \n 2: Subtração \n 3: Multiplicação \n 4: Divisão \n 0: Sair \n")
 
   operacao = int(input("Digite o número da sua operação, ou [0] para sair: "))
   num1 = int(input("Digite o primeiro número: "))

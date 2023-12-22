@@ -1,4 +1,4 @@
-def calculadora (num1, num2, operacao): 
+def calculadora (operacao, num1, num2): 
           if operacao == 1:
             resultado=num1+num2
           elif operacao == 2:
@@ -18,15 +18,17 @@ def calculadora (num1, num2, operacao):
 
 #Programa principal
     
-i=True
+i= True
 
-while i == true:
-   
+while i != 0:
+
+  print("Selecione uma das operações abaixo: ") 
   print(" 1: Soma \n 2: Subtração \n 3: Multiplicação \n 4: Divisão \n 0: Sair")
 
+  operacao = int(input("Digite o número da sua operação, ou [0] para sair: "))
   num1 = int(input("Digite o primeiro número: "))
   num2 = int(input("Digite o segundo número: "))
-  operacao = int(input("Digite o número da sua operação, ou [0] para sair: "))
 
-  resposta = calculadora(num1, num2, operacao)
-print(resposta)
+  resposta = calculadora(operacao, num1, num2)
+  print("\n O resultado é: " + str(resposta) + '\n')
+  print('--' *30)

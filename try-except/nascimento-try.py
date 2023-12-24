@@ -1,4 +1,4 @@
-nome = str(input("Digite seu nome completo: "))
+nome = input("Digite seu nome completo: ")
 
 i=True
 
@@ -12,5 +12,5 @@ while i != False:
                   idade = 2022 - ano_nascimento
                   print(f'Seu nome é {nome.upper()} e você tem {idade} anos.')
                   i = False
-      except Exception as erro:
-            print('Dados inválidos: ' + erro.__cause__)
+      except:
+            print('Dados inválidos')

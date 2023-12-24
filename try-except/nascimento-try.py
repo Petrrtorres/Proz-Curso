@@ -12,5 +12,5 @@ while i != False:
                   idade = 2022 - ano_nascimento
                   print(f'Seu nome é {nome.upper()} e você tem {idade} anos.')
                   i = False
-      except:
-            print('Dados inválidos')
+      except Exception as erro:
+            print(erro.__cause__)

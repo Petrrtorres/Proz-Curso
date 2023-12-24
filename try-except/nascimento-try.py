@@ -7,7 +7,6 @@ while i != False:
       try:
             if ano_nascimento < 1922 or ano_nascimento > 2021:
                   print('O ano informado precisa ser entre 1922 e 2021.')
-                  continue
             else:
                   idade = 2022 - ano_nascimento
                   print(f'Seu nome é {nome.upper()} e você tem {idade} anos.')
